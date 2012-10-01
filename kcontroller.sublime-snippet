@@ -4,7 +4,7 @@ defined('SYSPATH') or die('No direct script access.');
 
 class Controller_${1:Home} extends Controller${2:} {
 
-	public function action_${3:index}{
+	public function action_${3:index}(){
 
 	} 
 }
