@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+defined('SYSPATH') or die('No direct script access.');
+
+class Controller_${1:Home} extends Controller${2:} {
+
+	public function action_${3:index}{
+
+	} 
+}
+
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>kcontroller</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
